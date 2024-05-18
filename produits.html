@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+ 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un produit</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<header>
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                 <li><a href="Commande.html">Commandez ici</a></li>
+                <li><a href="contact.html">Contact</a></li>
+               
+            </ul>
+        </nav>
+    </header>
+<body>
+    <div class="product-form-container">
+        <h2>Ajouter un produit</h2>
+        <form action="#" method="post">
+            <div class="input-group">
+                <label for="name">Nom du produit</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="price">Prix</label>
+                <input type="number" id="price" name="price" min="0" step="0.01" required>
+            </div>
+            <div class="input-group">
+                <label for="description">Description</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn">Ajouter</button>
+              
+        </form>
+    </div>
+</body>
+</html>

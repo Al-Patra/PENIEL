@@ -1,0 +1,52 @@
+ 
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <header>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="Commande.html">Commandez ici</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                 
+            </ul>
+        </nav>
+    </header>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulaire de Commande</title>
+  <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+ 
+</head>
+<body>
+
+  <form id="commandeForm">
+    <label for="nom">Nom:</label>
+    <input type="text" id="nom" name="nom" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    
+    <label for="quantite">Désignation Article:</label>
+    <input type="text" id="quantite" name="quantite" min="1" required><br><br>
+     
+    <label for="quantite">Quantité:</label>
+    <input type="number" id="quantite" name="quantite" min="1" required><br><br>
+    
+    <label for="quantite">Prix Unitaire:</label>
+    <input type="number" id="quantite" name="quantite" min="1" required><br><br>
+    
+    <label for="quantite">Total:</label>
+    <input type="number" id="quantite" name="quantite" min="1" required><br><br>
+
+
+
+    <input type="submit" value="Valider">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
